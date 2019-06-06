@@ -1,0 +1,32 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Start page
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">Request reimbursement for children’s funeral cost</h1>
+
+      <p class="govuk-body">Use this service to request repayment for the cost of a child's funeral. You will need:</p>
+
+      <ul class="govuk-list govuk-list--bullet">
+        <li>A UK bank account</li>
+        <li>upload receipts</li>
+      </ul>
+
+      <form action="/iteration01/blah">
+
+        {{ govukButton({
+          html: 'Continue'
+        }) }}
+
+      </form>
+
+    </div>
+</div>
+
+{% endblock %}
