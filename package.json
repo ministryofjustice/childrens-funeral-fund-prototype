@@ -1,6 +1,6 @@
 {
-  "name": "express-prototype",
-  "description": "GOVUK prototyping app in Express",
+  "name": "childrens-funeral-fund-prototype",
+  "description": "Prototype for childrens funeral fund",
   "version": "8.12.0",
   "private": true,
   "engines": {
